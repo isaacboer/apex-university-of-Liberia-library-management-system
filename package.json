@@ -1,0 +1,45 @@
+{
+  "name": "random-joke-generator",
+  "version": "1.0.0",
+  "description": "Random Joke Generator using JokeAPI - includes CLI tool and REST API server",
+  "main": "joke-generator.js",
+  "scripts": {
+    "cli": "node joke-generator.js",
+    "server": "node joke-generator-api.js",
+    "start": "node joke-generator-api.js",
+    "joke": "node joke-generator.js",
+    "jokes:programming": "node joke-generator.js --category programming",
+    "jokes:knockknock": "node joke-generator.js --category knock-knock",
+    "jokes:dad": "node joke-generator.js --category dad",
+    "jokes:multiple": "node joke-generator.js --count 5",
+    "dev": "node joke-generator-api.js"
+  },
+  "keywords": [
+    "joke",
+    "api",
+    "random",
+    "generator",
+    "jokeapi",
+    "cli",
+    "rest",
+    "express"
+  ],
+  "author": "Isaac Boer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaacboer/apex-university-of-liberia-library-management-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacboer/apex-university-of-liberia-library-management-system/issues"
+  },
+  "homepage": "https://github.com/isaacboer/apex-university-of-liberia-library-management-system#readme"
+}
